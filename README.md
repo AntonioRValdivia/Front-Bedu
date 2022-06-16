@@ -1,5 +1,5 @@
 # Matcha-clone
 
-##FrontEnd Bedu Bootcamp.
+## FrontEnd Bedu Bootcamp.
 
 Repository for Matcha landing page clone.
