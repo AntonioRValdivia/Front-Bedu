@@ -9,6 +9,13 @@ h1 {
     margin-bottom: 24px;
 }
 
+h2{
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  margin: 20px 0px 30px;
+}
+
 h3{
   font-family: 'Acme', sans-serif;
     font-size: 40px;
@@ -17,10 +24,10 @@ h3{
 }
 
 p {
-  color: #46484C;
-  font-family: 20px "Slabo 27px", serif;
+  color: #8B8B8BCC;
+  font-family: "Slabo 27px", serif;
   font-size: 20px;
-  margin: 0px, 0px, 30px;
+  margin: 20px 0px 30px;
 }
 
 button {
@@ -28,14 +35,8 @@ button {
   background-color: #025157;
 }
 
-form p{
-  color: #8B8B8BCC;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-}
-
 .header{
-  margin: 40px, 20px, 0;
+  margin: 20px 50px 0;
   font-size: 0;
   font-family: sans-serif;
 }
@@ -50,7 +51,7 @@ form p{
 
 .list_element{
   display: inline;
-  margin: 0, 25px, 0;
+  margin: 0 15px 0;
 }
 
 .header > *{
@@ -66,7 +67,7 @@ form p{
 }
 
 .logo > img{
-  width: 15%;
+  width: 25%;
 }
 
 .navbar{
@@ -100,13 +101,17 @@ form p{
 }
 
 .main{
-  margin-top: 140px;
+  margin-top: 285px;
   text-align: center;
 }
 
 .publish > form{
   display: flex;
   flex-direction: column;
+}
+
+.publish > p{
+  color: #343434;
 }
 
 .publish > form p{
