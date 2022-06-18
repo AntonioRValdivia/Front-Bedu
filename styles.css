@@ -3,15 +3,24 @@ body {
 }
 
 h1 {
-  color: #025157;
-  text-align: center;
-  font-family: 'Alegreya', serif;
+    color: #025157;
+    font-family: 'Acme', sans-serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+h3{
+  font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
 }
 
 p {
-  color: #8b8b8bbc;
-  font-family: Verdana;
+  color: #46484C;
+  font-family: 20px "Slabo 27px", serif;
   font-size: 20px;
+  margin: 0px, 0px, 30px;
 }
 
 button {
@@ -19,10 +28,24 @@ button {
   background-color: #025157;
 }
 
+form p{
+  color: #8B8B8BCC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
 .header{
   margin: 40px, 20px, 0;
   font-size: 0;
   font-family: sans-serif;
+}
+
+.fixed-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
 }
 
 .list_element{
@@ -47,7 +70,7 @@ button {
 }
 
 .navbar{
-  width: 70%;
+  width: 60%;
   text-align: center;
   color: #025157;
   font-weight: 500;
@@ -80,6 +103,36 @@ button {
   margin-top: 140px;
   text-align: center;
 }
+
+.publish > form{
+  display: flex;
+  flex-direction: column;
+}
+
+.publish > form p{
+  color: #025157;
+  margin-top: 18px;
+}
+
+.promo{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.explanatory-video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+
 
 
 
