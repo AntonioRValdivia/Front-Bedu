@@ -138,11 +138,42 @@ button {
 }
 
 .features {
+  background-color: #025157;
   height: 660px;
+  padding: 60px 120px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-areas: 
+  "box-1 box-2"
+  "box-3 box-4";
 }
+
+.box-1 {
+  grid-area: box-1;
+}
+
+.box-2 {  
+  grid-area: box-2;
+}
+
+.box-3 {
+  grid-area: box-3;
+}
+
+.box-4 {
+  grid-area: box-4;
+}
+
+.features article {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 20px 40px 40px;
+}
+
+
 
 
 
