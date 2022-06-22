@@ -137,6 +137,13 @@ button {
   margin-top: 10px;
 }
 
+.features {
+  height: 660px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
 
 
 
