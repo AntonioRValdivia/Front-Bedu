@@ -41,6 +41,17 @@ button {
   font-family: sans-serif;
 }
 
+.header button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
 .fixed-header{
   position: fixed;
   top: 0;
@@ -171,6 +182,16 @@ button {
   background-color: white;
   border-radius: 10px;
   padding: 30px 20px 40px 40px;
+}
+
+a {
+  color: #67b54b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 
