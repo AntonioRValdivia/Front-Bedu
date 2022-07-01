@@ -31,12 +31,22 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+a {
+  color: #67b54b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 .logo {
     width: 15%;
 }
 
-.logo>img {
-    width: 15%;
+.logo > img {
+    width: 25%;
 }
 
 .navbar {
@@ -46,6 +56,8 @@ body {
 
 .navbar-light .nav-item .nav-link {
     color: #025157;
+    display: inline;
+    margin: 0 25px 0;
 }
 
 .navbar-light .navbar-toggler {
@@ -62,13 +74,13 @@ body {
     font-size: 14px;
 }
 
-.actions>* {
-    margin-right: 10px;
-    margin-left: 10px;
+.actions> * {
+  margin: 0, 10px;
 }
 
 .actions a {
     color: #67b54b;
+    margin-right: 10px;
 }
 
 .actions button {
